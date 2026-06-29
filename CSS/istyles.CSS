@@ -80,6 +80,13 @@ background: linear-gradient(90deg, #141e30 0%, #243b55 100%);
     top: 1250px;
 
 }
+.content .item{
+    display: inline-block;
+}
+.content .item img{
+    width:400px;
+    height: 400px;
+}
 
 
 
