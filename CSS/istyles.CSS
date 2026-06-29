@@ -83,19 +83,23 @@ background: linear-gradient(90deg, #141e30 0%, #243b55 100%);
     
 }
 .content .item{
-    display: inline-block;
-    border: 2px solid white;
-    padding-left: 5px;
-    
+    display: inline;
+    /* border: 2px solid white; */
+    left :10px;
+    padding: 15px;
 }
 .content .item img{
-    width:400px;
-    height: 400px;
+    margin-top: 20px;
+    width:300px;
+    height: 300px;
+    display: inline;
+    border: 2px solid white;
 
 }
+
 .footer{
     display: absolute;
-    top: 1600px;
+    bottom: 20px;
     border: 2px solid white;
     
 }
