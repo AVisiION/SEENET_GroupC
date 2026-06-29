@@ -86,7 +86,6 @@ background: linear-gradient(90deg, #141e30 0%, #243b55 100%);
 .nav video {
     object-fit:cover;
     width: 100%;
-<<<<<<< HEAD
     height: 500px;
 =======
     height: 100%;
