@@ -8,12 +8,12 @@ body {
     background-color: black;
     color: white;
     font-family: 'Courier New', Courier, monospace;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     padding-top: 70px;
 }
 
 .header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -60,29 +60,27 @@ background: linear-gradient(90deg, #141e30 0%, #243b55 100%);
     transform: scale(1.1);
 }
 
-.main {
-    padding: 0;
-}
-
 .hero {
     position: absolute;
     top: 63px;
     background: #000;
     width: 100%;
-    height: 800px;
     /* border: 2px solid rgb(255, 255, 255); */
 }
-
-
-.content {
-    position: relative;
-}
-
-
-
 
 .hero video {
     object-fit:cover;
     height: 100%;
     width: 100%;
 }
+.main .content {
+    border: 2px solid white;
+    width: 100%;
+    position: absolute;
+    top: 1250px;
+
+}
+
+
+
+
