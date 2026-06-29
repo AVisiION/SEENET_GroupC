@@ -23,14 +23,12 @@ nav {
 background: linear-gradient(90deg, #141e30 0%, #243b55 100%);
     padding: 10px;
     /* border: 1px solid white; */
-    align-items: center;
     width: 100%;
 }
 .navlinks{
-    float: right;
-    /* gap: 16px; */
     position: absolute;
     right: 10px;
+    top: 0px;
 }
 nav img {
     width: 50px;
@@ -41,6 +39,9 @@ nav img {
 }
 .fa-solid{
     color: #8b8d96;
+    display: absolute;
+    top: 5px;
+
 }
 
 
@@ -51,10 +52,6 @@ main {
 .hero {
     position: sticky;
     top: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
     background: #000;
     border: 1px solid rgba(255, 255, 255, 0.2);
     margin-bottom: 0;
