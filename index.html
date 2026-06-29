@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Chronix</title>
+    <link rel="stylesheet" href="CSS/istyles.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <button class="menu-toggle" type="button" aria-label="Open sidebar" title="Open sidebar" aria-controls="sidebar" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+
+            <img src="MEDIA/logo.png" alt="Image not AVALIABLE">
+            <div class="navlinks">
+
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </nav>
+    </header>
+
+    <div class="overlay" id="overlay"></div>
+
+    <aside class="sidebar" id="sidebar" aria-hidden="true">
+        <button class="close-toggle" type="button" aria-label="Close sidebar"><i class="fa-solid fa-xmark"></i></button>
+        <a href="#">Home</a>
+        
+    </aside>
+
+    <main>
+        <section class="hero">
+            <video src="MEDIA/v1.mp4" autoplay muted loop></video>
+        </section>
+        <section class="content">
+            <div class="slider" aria-label="Image slider">
+                <button class="slider-control prev" type="button" aria-label="Previous image">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <div class="slider-viewport">
+                    <div class="slider-track">
+                        <figure class="slide active">
+                            <img src="MEDIA/logo.png" alt="Chronix logo">
+                        </figure>
+                        <figure class="slide">
+                            <img src="MEDIA/Chronix-logo.png" alt="Chronix logo variant">
+                        </figure>
+                        <figure class="slide">
+                            <img src="MEDIA/logo.png" alt="Chronix logo duplicate">
+                        </figure>
+                        <figure class="slide">
+                            <img src="MEDIA/Chronix-logo.png" alt="Chronix logo variant duplicate">
+                        </figure>
+                        <figure class="slide">
+                            <img src="MEDIA/logo.png" alt="Chronix logo final duplicate">
+                        </figure>
+                    </div>
+                </div>
+
+                <button class="slider-control next" type="button" aria-label="Next image">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="JS/script.js"></script>
 </body>
 </html>

@@ -1,0 +1,11 @@
+Premium Gunmetal (Deep Charcoal)
+background: linear-gradient(to right, #434343 0%, #000000 100%);
+
+Obsidian Steel
+background: linear-gradient(135deg, #1c1c1c 0%, #404040 100%);
+
+Midnight Polished Chrome
+background: linear-gradient(135deg, #232526 0%, #414345 100%);
+
+Carbon Fiber Dark
+background: linear-gradient(90deg, #141e30 0%, #243b55 100%);
