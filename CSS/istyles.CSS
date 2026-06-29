@@ -60,10 +60,6 @@ nav img {
     transform: scale(1.1);
 }
 
-main {
-    padding: 0;
-}
-
 .hero {
     position: sticky;
     top: 70px;
