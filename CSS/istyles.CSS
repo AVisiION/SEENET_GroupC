@@ -77,15 +77,28 @@ background: linear-gradient(90deg, #141e30 0%, #243b55 100%);
     border: 2px solid white;
     width: 100%;
     position: absolute;
-    top: 1250px;
+    top: 1200px;
 
 }
 .content .item{
     display: inline-block;
+    border: 2px solid white;
+    
 }
 .content .item img{
     width:400px;
     height: 400px;
+
+}
+.footer{
+    display: absolute;
+    top: 1600px;
+    border: 2px solid white;
+    
+}
+.footer img{
+    width: 200px;
+    height: 200px;
 }
 
 
