@@ -1,45 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chronix</title>
-    <link rel="stylesheet" href="Css/istyles.css">
-    <link rel="stylesheet" href="Css/styles.css">
+    <link rel="stylesheet" href="Css/istyles.css" />
+    <link rel="stylesheet" href="Css/styles.css" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
 </head>
 
 <body>
     <div class="header">
         <div class="nav">
 
+            <ul>
+                <li>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-user"></i>
+                </li>
+            </ul>
             <button class="menu-toggle" type="button" aria-label="Open sidebar" title="Open sidebar"
-                aria-controls="sidebar" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+                aria-controls="sidebar" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
 
             <img src="MEDIA/logo.png" alt="Image not AVALIABLE">
-            <div class="navlinks">
-                <ul>
-                    <li>
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-location-dot"></i>
-                    </li>
-                    <li>
-                        <i class="fa-solid fa-user"></i>
-                    </li>
-                </ul>
-            </div>
+
+
         </div>
     </div>
 
     <div class="overlay" id="overlay"></div>
 
     <div class="sidebar" id="sidebar" aria-hidden="true">
-        <button class="close-toggle" type="button" aria-label="Close sidebar"><i class="fa-solid fa-xmark"></i></button>
+        <button class="close-toggle" type="button" aria-label="Close sidebar">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
         <a href="HTML/bestseller.html" class="menulinks">Bestseller</a>
         <a href="HTML/newarrival.html" class="menulinks">New Arrival</a>
         <a href="HTML/limited.html" class="menulinks">Limited Edition</a>
@@ -50,44 +53,50 @@
 
     <div class="main">
         <div class="hero">
-            <video src="MEDIA/v3.mp4" autoplay muted loop></video>
+            <video src="MEDIA/v6.mp4" autoplay muted loop></video>
         </div>
 
         <div class="content">
-            <div class="item item1"><img src="MEDIA/luxury.jpeg" alt=""></div>
-            <div class="item item2"><img src="MEDIA/formal.jpeg" alt=""></div>
-            <div class="item item3"><img src="MEDIA/sport.jpeg" alt=""></div>
-            <div class="item item4"><img src="MEDIA/limited.png" alt=""></div>
-            <div class="item item5"><img src="MEDIA/sport.jpeg" alt=""></div>
+            <div class="text">
+                Browse our Collections
+            </div>
+            <ul>
+                <li class="item1"><img src="MEDIA/luxury.jpeg" alt="Image Not AVALIABLE" /></li>
+                <li class="item2"><img src="MEDIA/formal.jpeg" alt="Image Not AVALIABLE" /></li>
+                <li class="item3"><img src="MEDIA/sport.jpeg" alt="Image Not AVALIABLE" /></li>
+                <li class="item4"><img src="MEDIA/limited.png" alt="Image Not AVALIABLE" /></li>
+                <li class="item5"><img src="MEDIA/sport.jpeg" alt="Image Not AVALIABLE" /></li>
+                <li class="item6"><img src="MEDIA/sport.jpeg" alt="Image Not AVALIABLE" /></li>
+            </ul>
         </div>
     </div>
-
 
     <div class="footer">
-        <img src="MEDIA/logo.png" alt="Image not AVALIABLE">
-        <div class="part1">@ All Rights are reserved</div>
-        <div class="part2">
-            <u>Quick Links</u>
-            Privacy Policy <br>
-            Terms & Conditions <br>
-            Return Policy <br>
-            Help
-        </div>
-
-        <div class="part3">
-            <u>FEATURES</u><br>
-            About Us <br>
-            Contact Us <br>
-        </div>
-
-        <div class="part4">
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-x-twitter"></i>
-        </div>
+        <img src="MEDIA/logo.png" alt="Image not AVALIABLE" />
+        <ul>
+            <li class="part1">
+                @ All Rights are reserved
+            </li>
+            <li class="part2">
+                <u>Quick Links</u><br>
+                Privacy Policy <br>
+                Terms & Conditions <br>
+                Return Policy <br>
+                Help
+            </li>
+            <li class="part3">
+                <u>FEATURES</u><br>
+                About Us <br>
+                Contact-Us 
+            </li>
+            <li class="part4">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+            </li>
+        </ul>
     </div>
     <script src="JS/script.js"></script>
-
 </body>
 
 </html>
