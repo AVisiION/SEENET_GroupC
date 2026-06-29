@@ -1,0 +1,29 @@
+<div class="slider" aria-label="Image slider">
+                <button class="slider-control prev" type="button" aria-label="Previous image">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+
+                <div class="slider-viewport">
+                    <div class="slider-track">
+                        <figure class="slide active">
+                            <img src="MEDIA/logo.png" alt="Chronix logo">
+                        </figure>
+                        <figure class="slide">
+                            <img src="MEDIA/Chronix-logo.png" alt="Chronix logo variant">
+                        </figure>
+                        <figure class="slide">
+                            <img src="MEDIA/logo.png" alt="Chronix logo duplicate">
+                        </figure>
+                        <figure class="slide">
+                            <img src="MEDIA/Chronix-logo.png" alt="Chronix logo variant duplicate">
+                        </figure>
+                        <figure class="slide">
+                            <img src="MEDIA/logo.png" alt="Chronix logo final duplicate">
+                        </figure>
+                    </div>
+                </div>
+
+                <button class="slider-control next" type="button" aria-label="Next image">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>

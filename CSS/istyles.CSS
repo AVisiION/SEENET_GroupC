@@ -12,26 +12,26 @@ body {
     padding-top: 70px;
 }
 
-header {
+.header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
 }
 
-nav {
+.nav {
 background: linear-gradient(90deg, #141e30 0%, #243b55 100%);
     padding: 10px;
     /* border: 1px solid white; */
     width: 100%;
 }
-nav ul{
+.nav ul{
     text-decoration: none;
     list-style: none;
     height: 50px;
     line-height: 50px;
 }
-nav ul li{
+.nav ul li{
     float: right;
     padding: 5px;
 }
@@ -40,7 +40,7 @@ nav ul li{
     right: 10px;
     top: 0px;
 }
-nav img {
+.nav img {
     width: 50px;
     height: 50px;
     position: absolute;
@@ -60,13 +60,13 @@ nav img {
     transform: scale(1.1);
 }
 
-main {
+.main {
     padding: 0;
 }
 
 .hero {
     position: sticky;
-    top: 70px;
+    top: 40 px;
     background: #000;
     border: 1px solid rgba(255, 255, 255, 0.2);
     margin-bottom: 0;
@@ -80,9 +80,8 @@ main {
 
 
 
-video {
+.nav video {
+    object-fit:cover;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+    height: 500px;
 }

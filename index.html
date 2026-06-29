@@ -11,30 +11,31 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <button class="menu-toggle" type="button" aria-label="Open sidebar" title="Open sidebar" aria-controls="sidebar" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
+    <div class="header">
+        <div class="nav">
+            <button class="menu-toggle" type="button" aria-label="Open sidebar" title="Open sidebar"
+                aria-controls="sidebar" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
 
             <img src="MEDIA/logo.png" alt="Image not AVALIABLE">
-            <div class="navlinks">           
-            <ul>
-                <li>
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </li>
-                <li>
-                    <i class="fa-solid fa-location-dot"></i>
-                </li>
-                <li>
-                    <i class="fa-solid fa-user"></i>
-                </li>
-            </ul>    
+            <div class="navlinks">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-user"></i>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+    </div>
 
     <div class="overlay" id="overlay"></div>
 
-    <aside class="sidebar" id="sidebar" aria-hidden="true">
+    <div class="sidebar" id="sidebar" aria-hidden="true">
         <button class="close-toggle" type="button" aria-label="Close sidebar"><i class="fa-solid fa-xmark"></i></button>
         <a href="HTML/bestseller.html" class="menulinks">Bestseller</a>
         <a href="HTML/newarrival.html" class="menulinks">New Arrival</a>
@@ -42,48 +43,21 @@
         <a href="HTML/about.html" class="menulinks">About</a>
         <a href="HTML/contact.html" class="menulinks">Contact US</a>
         <a href="HTML/help.html" class="menulinks">Help US</a>
-    </aside>
+    </div>
 
-    <main>
-        <section class="hero">
+    <div class="main">
+        <div class="hero">
             <video src="MEDIA/v3.mp4" autoplay muted loop></video>
-        </section>
-        <section class="content">
-            <div class="slider" aria-label="Image slider">
-                <button class="slider-control prev" type="button" aria-label="Previous image">
-                    <i class="fa-solid fa-chevron-left"></i>
-                </button>
+        </div>
+        <div class="content">
+            
+        </div>
 
-                <div class="slider-viewport">
-                    <div class="slider-track">
-                        <figure class="slide active">
-                            <img src="MEDIA/logo.png" alt="Chronix logo">
-                        </figure>
-                        <figure class="slide">
-                            <img src="MEDIA/Chronix-logo.png" alt="Chronix logo variant">
-                        </figure>
-                        <figure class="slide">
-                            <img src="MEDIA/logo.png" alt="Chronix logo duplicate">
-                        </figure>
-                        <figure class="slide">
-                            <img src="MEDIA/Chronix-logo.png" alt="Chronix logo variant duplicate">
-                        </figure>
-                        <figure class="slide">
-                            <img src="MEDIA/logo.png" alt="Chronix logo final duplicate">
-                        </figure>
-                    </div>
-                </div>
+    </div>
+    <div class="footer">
 
-                <button class="slider-control next" type="button" aria-label="Next image">
-                    <i class="fa-solid fa-chevron-right"></i>
-                </button>
-            </div>
-        </section>
-
-    </main>
-    <footer>
-
-    </footer>
+    </div>
     <script src="JS/script.js"></script>
 </body>
+
 </html>
