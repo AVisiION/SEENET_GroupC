@@ -25,6 +25,16 @@ background: linear-gradient(90deg, #141e30 0%, #243b55 100%);
     /* border: 1px solid white; */
     width: 100%;
 }
+nav ul{
+    text-decoration: none;
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+}
+nav ul li{
+    float: right;
+    padding: 5px;
+}
 .navlinks{
     position: absolute;
     right: 10px;
