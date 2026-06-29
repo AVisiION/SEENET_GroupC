@@ -77,12 +77,15 @@ background: linear-gradient(90deg, #141e30 0%, #243b55 100%);
     border: 2px solid white;
     width: 100%;
     position: absolute;
-    top: 1200px;
-
+    top: 1000px;
+    background-color: black;
+    height: 450px;
+    
 }
 .content .item{
     display: inline-block;
     border: 2px solid white;
+    padding-left: 5px;
     
 }
 .content .item img{
