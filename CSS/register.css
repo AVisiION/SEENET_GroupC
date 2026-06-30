@@ -1,0 +1,30 @@
+body
+{
+    background-color: black;
+}
+
+.head
+{
+    color: white;
+}
+
+.regis
+{
+  background-color: white;
+  position: absolute;
+    top: 60px;
+    left: 37%;
+    height: 500px;
+    width: 400px;
+    color: black;
+}
+
+.logo
+{
+    position: absolute;
+    left: 690px;
+    /* border: 2px solid white; */
+    height: 150px;
+    width: 150px;
+    top: 60px;
+}
