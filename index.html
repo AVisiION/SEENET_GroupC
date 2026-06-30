@@ -8,19 +8,18 @@
     <link rel="stylesheet" href="Css/istyles.css" />
     <link rel="stylesheet" href="Css/styles.css" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 
 <body>
-    <div class="header">
+        <div class="header">
         <div class="nav">
-
             <ul>
-                <li>
+                <li class="search-nav-item">
                     <i class="fa-solid fa-magnifying-glass"></i>
-                    <ul>
-                        <li><input type="text"></li>
-                    </ul>
+                    <div class="search-inline">
+                        <input type="text" placeholder="Search...">
+                    </div>
                 </li>
                 <li>
                     <i class="fa-solid fa-heart"></i>
@@ -32,9 +31,8 @@
                     <i class="fa-solid fa-user"></i>
                     <ul>
                         <li><a href="HTML/login.html">Login</a></li>
-                        <li>Register</li>
+                        <li><a href="HTML/register.html">Register</a></li>
                         <li>My Account</li>
-
                     </ul>
                 </li>
             </ul>
@@ -45,10 +43,199 @@
 
             <img src="MEDIA/logo.png" alt="Image not AVALIABLE">
 
-
         </div>
     </div>
 
+
+
+    <div class="main">
+        <div class="hero">
+            <video src="MEDIA/v6.mp4" autoplay muted loop></video>
+        </div>
+
+        <div class="categories">
+            <div class="category-title">Browse by Category <a href="#" class="heading-view-all">View All <i class="fa-solid fa-arrow-right"></i></a></div>
+            <div class="category-list">
+                <a href="#" class="cat-link">Casual</a>
+                <a href="#" class="cat-link">Luxury</a>
+                <a href="#" class="cat-link">Sports</a>
+                <a href="#" class="cat-link">Limited Time</a>
+                <a href="#" class="cat-link">Formal</a>
+                <a href="#" class="cat-link">SmartWatch</a>
+                <a href="#" class="cat-link">Men's Watches</a>
+                <a href="#" class="cat-link">Women's Watches</a>
+                <a href="#" class="cat-link">Accessories</a>
+            </div>  
+        </div>
+
+        <div class="categories">
+            <div class="category-title">Browse by Brands <a href="#" class="heading-view-all">View All <i class="fa-solid fa-arrow-right"></i></a></div>
+            <div class="category-list">
+                <a href="#" class="cat-link"><i class="fa-solid fa-crown"></i> Rolex</a>
+                <a href="#" class="cat-link"><i class="fa-solid fa-gem"></i> Omega</a>
+                <a href="#" class="cat-link"><i class="fa-solid fa-shield"></i> Tag Heuer</a>
+                <a href="#" class="cat-link"><i class="fa-solid fa-clock"></i> Seiko</a>
+                <a href="#" class="cat-link"><i class="fa-solid fa-stopwatch"></i> Casio</a>
+                <a href="#" class="cat-link"><i class="fa-brands fa-apple"></i> Apple</a>
+                <a href="#" class="cat-link"><i class="fa-solid fa-star"></i> Patek Philippe</a>
+                <a href="#" class="cat-link"><i class="fa-solid fa-medal"></i> Audemars Piguet</a>
+                <a href="#" class="cat-link"><i class="fa-solid fa-ring"></i> Cartier</a>
+                <a href="#" class="cat-link"><i class="fa-solid fa-compass"></i> Tissot</a>
+                <a href="#" class="cat-link"><i class="fa-solid fa-plane"></i> Breitling</a>
+                <a href="#" class="cat-link"><i class="fa-solid fa-location-dot"></i> Garmin</a>
+                <a href="#" class="cat-link"><i class="fa-solid fa-mobile-screen"></i> Samsung</a>
+                <a href="#" class="cat-link"><i class="fa-solid fa-heart-pulse"></i> Fitbit</a>
+                <a href="#" class="cat-link"><i class="fa-solid fa-bolt"></i> Fossil</a>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="text">
+                Best Collections <a href="#" class="heading-view-all">View All <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <ul>
+                <li class="item1">
+                    <button class="icon-btn wishlist-btn-top" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+                    <img src="MEDIA/luxury.jpeg" alt="Image Not AVALIABLE" />
+                    <h3>Prestige Chronograph</h3>
+                    <p>Experience the epitome of luxury.</p>
+                    <p><b>$1,299.00</b></p>
+                    <div class="product-actions">
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="icon-btn" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </li>
+                <li class="item2">
+                    <button class="icon-btn wishlist-btn-top" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+                    <img src="MEDIA/formal.jpeg" alt="Image Not AVALIABLE" />
+                    <h3>Classic Aviator</h3>
+                    <p>Timeless design for professionals.</p>
+                    <p><b>$899.00</b></p>
+                    <div class="product-actions">
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="icon-btn" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </li>
+                <li class="item3">
+                    <button class="icon-btn wishlist-btn-top" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+                    <img src="MEDIA/sport.jpeg" alt="Image Not AVALIABLE" />
+                    <h3>Sport Diver</h3>
+                    <p>Built for durability and performance.</p>
+                    <p><b>$1,099.00</b></p>
+                    <div class="product-actions">
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="icon-btn" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </li>
+                <li class="item4">
+                    <button class="icon-btn wishlist-btn-top" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+                    <img src="MEDIA/limited.png" alt="Image Not AVALIABLE" />
+                    <h3>Infinity Masterpiece</h3>
+                    <p>Exclusive limited edition release.</p>
+                    <p><b>$5,000.00</b></p>
+                    <div class="product-actions">
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="icon-btn" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </li>
+                <li class="item5">
+                    <button class="icon-btn wishlist-btn-top" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+                    <img src="MEDIA/sport.jpeg" alt="Image Not AVALIABLE" />
+                    <h3>Aqua Tracker Pro</h3>
+                    <p>Advanced fitness and time tracking.</p>
+                    <p><b>$950.00</b></p>
+                    <div class="product-actions">
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="icon-btn" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </li>
+                <li class="item6">
+                    <button class="icon-btn wishlist-btn-top" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+                    <img src="MEDIA/luxury.jpeg" alt="Image Not AVALIABLE" />
+                    <h3>Golden Horizon</h3>
+                    <p>A bold statement piece with 18k gold.</p>
+                    <p><b>$2,100.00</b></p>
+                    <div class="product-actions">
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="icon-btn" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </li>
+                <li class="item7">
+                    <button class="icon-btn wishlist-btn-top" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+                    <img src="MEDIA/luxury.jpeg" alt="Image Not AVALIABLE" />
+                    <h3>Golden Horizon</h3>
+                    <p>A bold statement piece with 18k gold.</p>
+                    <p><b>$2,100.00</b></p>
+                    <div class="product-actions">
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="icon-btn" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </li>
+                <li class="item6">
+                    <button class="icon-btn wishlist-btn-top" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
+                    <img src="MEDIA/luxury.jpeg" alt="Image Not AVALIABLE" />
+                    <h3>Golden Horizon</h3>
+                    <p>A bold statement piece with 18k gold.</p>
+                    <p><b>$2,100.00</b></p>
+                    <div class="product-actions">
+                        <button class="buy-now-btn">Buy Now</button>
+                        <button class="icon-btn" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="our-promise">
+        <div class="promise-item">
+            <i class="fa-solid fa-truck-fast"></i>
+            <h4>Free Shipping</h4>
+            <p>On all orders over $500 worldwide.</p>
+        </div>
+        <div class="promise-item">
+            <i class="fa-solid fa-certificate"></i>
+            <h4>100% Authentic</h4>
+            <p>Guaranteed authentic with certificates.</p>
+        </div>
+        <div class="promise-item">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h4>2-Year Warranty</h4>
+            <p>Comprehensive coverage for peace of mind.</p>
+        </div>
+        <div class="promise-item">
+            <i class="fa-solid fa-rotate-left"></i>
+            <h4>30-Day Returns</h4>
+            <p>Hassle-free returns if you're not satisfied.</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-brand">
+            <img src="MEDIA/logo.png" alt="Chronix Logo" />
+            <p class="copyright">&copy; 2026 Chronix. All Rights Reserved.</p>
+        </div>
+        <div class="footer-links">
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Return Policy</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="footer-section">
+                <h4>Features</h4>
+                <a href="#">About Us</a>
+                <a href="#">Helpdesk</a>
+            </div>
+        </div>
+        <div class="footer-social">
+            <h4>Follow Us</h4>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
     <div class="overlay" id="overlay"></div>
 
     <div class="sidebar" id="sidebar" aria-hidden="true">
@@ -58,111 +245,23 @@
         <a href="HTML/bestseller.html" class="menulinks">Bestseller</a>
         <a href="HTML/newarrival.html" class="menulinks">New Arrival</a>
         <a href="HTML/limited.html" class="menulinks">Limited Edition</a>
-        <a href="HTML/about.html" class="menulinks">About</a>
-        <a href="HTML/contact.html" class="menulinks">Contact US</a>
-        <a href="HTML/help.html" class="menulinks">Help US</a>
-    </div>
-
-    <div class="main">
-        <div class="hero">
-            <video src="MEDIA/v6.mp4" autoplay muted loop></video>
-        </div>
-
-        <div class="categories">
-            <div class="category-title">Browse by Category</div>
-            <div class="category-list">
-                <a href="#" class="cat-link">Casual</a>
-                <a href="#" class="cat-link">Luxury</a>
-                <a href="#" class="cat-link">Sports</a>
-                <a href="#" class="cat-link">Limited Time</a>
-                <a href="#" class="cat-link">Formal</a>
-                <a href="#" class="cat-link">SmartWatch</a>
-            </div>
-        </div>
-
-        <div class="content">
-            <div class="text">
-                Browse our Best Collections
-            </div>
-            <ul>
-                <li class="item1">
-                    <img src="MEDIA/luxury.jpeg" alt="Image Not AVALIABLE" />
-                    <h3>Prestige Chronograph</h3>
-                    <p>Experience the epitome of luxury.</p>
-                    <p><strong>$1,299.00</strong></p>
-                </li>
-                <li class="item2">
-                    <img src="MEDIA/formal.jpeg" alt="Image Not AVALIABLE" />
-                    <h3>Classic Aviator</h3>
-                    <p>Timeless design for professionals.</p>
-                    <p><strong>$899.00</strong></p>
-                </li>
-                <li class="item3">
-                    <img src="MEDIA/sport.jpeg" alt="Image Not AVALIABLE" />
-                    <h3>Sport Diver</h3>
-                    <p>Built for durability and performance.</p>
-                    <p><strong>$1,099.00</strong></p>
-                </li>
-                <li class="item4">
-                    <img src="MEDIA/limited.png" alt="Image Not AVALIABLE" />
-                    <h3>Infinity Masterpiece</h3>
-                    <p>Exclusive limited edition release.</p>
-                    <p><strong>$5,000.00</strong></p>
-                </li>
-                <li class="item5">
-                    <img src="MEDIA/sport.jpeg" alt="Image Not AVALIABLE" />
-                    <h3>Aqua Tracker Pro</h3>
-                    <p>Advanced fitness and time tracking.</p>
-                    <p><strong>$950.00</strong></p>
-                </li>
-                <li class="item6">
-                    <img src="MEDIA/luxury.jpeg" alt="Image Not AVALIABLE" />
-                    <h3>Golden Horizon</h3>
-                    <p>A bold statement piece with 18k gold.</p>
-                    <p><strong>$2,100.00</strong></p>
-                </li>
-                <li class="item7">
-                    <img src="MEDIA/luxury.jpeg" alt="Image Not AVALIABLE" />
-                    <h3>Golden Horizon</h3>
-                    <p>A bold statement piece with 18k gold.</p>
-                    <p><strong>$2,100.00</strong></p>
-                </li>
-                <li class="item6">
-                    <img src="MEDIA/luxury.jpeg" alt="Image Not AVALIABLE" />
-                    <h3>Golden Horizon</h3>
-                    <p>A bold statement piece with 18k gold.</p>
-                    <p><strong>$2,100.00</strong></p>
-                </li>
-            </ul>
+        <a href="HTML/men.html" class="menulinks">Men's Watches</a>
+        <a href="HTML/women.html" class="menulinks">Women's Watches</a>
+        <a href="HTML/smartwatch.html" class="menulinks">Smartwatches</a>
+        <a href="HTML/accessories.html" class="menulinks">Accessories</a>
+        <a href="#" class="menulinks">Offers</a>
+        <a href="HTML/about.html" class="menulinks">About us</a>
+        <a href="HTML/contact.html" class="menulinks">Helpdesk</a>
+        
+        <div class="sidebar-auth">
+            <a href="HTML/login.html">Login</a>
+            <a href="HTML/register.html">Sign Up</a>
         </div>
     </div>
 
-     <div class="footer">
-        <img src="MEDIA/logo.png" alt="Image not AVALIABLE" />
-        <ul>
-            <li class="part1">
-                @ All Rights are reserved
-            </li>
-            <li class="part2">
-                <u>Quick Links</u><br>
-                Privacy Policy <br>
-                Terms & Conditions <br>
-                Return Policy <br>
-                Help
-            </li>
-            <li class="part3">
-                <u>FEATURES</u><br>
-                About Us <br>
-                Contact-Us
-            </li>
-            <li class="part4">
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-x-twitter"></i>
-            </li>
-        </ul>
-    </div>
     <script src="JS/script.js"></script>
     </body>
 
 </html>
+
+
