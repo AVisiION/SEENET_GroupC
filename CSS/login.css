@@ -1,0 +1,77 @@
+
+body
+{
+    background-color: black;
+}
+
+.logo img
+{
+    position: absolute;
+    left: 690px;
+    /* border: 2px solid white; */
+    height: 150px;
+    width: 150px;
+    top: 60px;
+    background: linear-gradient(135deg, #121212 0%, #2a2a2a 50%, #121212 100%);
+}
+
+.login
+{
+    position: absolute;
+    top: 60px;
+    left: 37%;
+    height: 500px;
+    width: 400px;
+    color: black;
+    background: linear-gradient(135deg, #121212 0%, #2a2a2a 50%, #121212 100%);
+}
+
+.box1
+{
+    position: absolute;
+    left: 615px;
+    top: 240px;
+    height: 40px;
+    width: 300px;
+    border-radius: 2px;
+}
+
+.box2
+{
+    position: absolute;
+    left: 615px;
+    top: 300px;
+    height: 40px;
+    width: 300px;
+}
+
+.forget
+{
+    text-decoration: none;
+    background-color: white;
+    position: absolute;
+    top: 355px;
+    left: 615px;
+}
+
+.btn1
+{
+    position: absolute;
+    left: 710px;
+    /* border: 2px solid white; */
+    height: 30px;
+    width: 120px;
+    top: 395px;
+    font-size: 18px;
+}
+
+.signup
+{
+    position: absolute;
+    top: 435px;
+    left: 670px;
+    background-color: white;
+    position: absolute;
+    text-decoration: none;
+    
+}
