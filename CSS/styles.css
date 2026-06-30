@@ -58,7 +58,7 @@
     padding: 12px 15px;
     margin-bottom: 10px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 200;
     border-radius: 8px;
     transition: all 0.3s ease-out;
 }
@@ -68,37 +68,30 @@
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, transparent 100%);
     border-left: 3px solid #fff;
     padding-left: 20px;
+    font-weight: 300;
 }
 
 .sidebar-auth {
-    position: absolute;
-    bottom: 80px;
-    left: 20px;
-    right: 20px;
+    margin-top: 30px;
 }
 
 .sidebar-auth a {
-    display: inline-block;
-    width: 48%;
+    display: block;
+    width: 100%;
     box-sizing: border-box;
-    margin-bottom: 0;
-    padding: 10px 0;
+    margin-bottom: 10px;
+    padding: 12px 15px;
     text-align: center;
-    border: 1px solid #b0b5c0;
-    background: transparent;
-}
-
-.sidebar-auth a:first-child {
-    float: left;
-}
-
-.sidebar-auth a:last-child {
-    float: right;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    font-weight: 400;
+    transition: all 0.3s ease;
 }
 
 .sidebar-auth a:hover {
     background: #b0b5c0;
     color: #121212;
+    font-weight: 700;
 }
 
 .overlay {

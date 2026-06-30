@@ -4,10 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - SeeNet</title>
+    <link rel="stylesheet" href="../Css/istyles.css">
+    <link rel="stylesheet" href="../Css/styles.css">
     <link rel="stylesheet" href="../Css/login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 <body>
+    <div class="header">
+        <div class="nav">
+            <ul>
+                <li class="search-nav-item">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <div class="search-inline">
+                        <input type="text" placeholder="Search...">
+                    </div>
+                </li>
+                <li>
+                    <i class="fa-solid fa-heart"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </li>
+                <li>
+                    <a href="login.html"><i class="fa-solid fa-user"></i></a>
+                    <!-- <ul>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="register.html">Register</a></li>
+                        <li><a href="#">My Account</a></li>
+                    </ul> -->
+                </li>
+            </ul>
+            <button class="menu-toggle" type="button" aria-label="Open sidebar" title="Open sidebar"
+                aria-controls="sidebar" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <a href="../index.html">
+            <img src="../MEDIA/logo.png" alt="Image not AVALIABLE">
+            </a>
+
+        </div>
+    </div>
     <div class="login-container">
         <div class="login-box">
             <div class="logo">
@@ -32,7 +69,8 @@
             </form>
             
             <div class="login-footer">
-                <a href="register.html" class="signup">Don't have an account? Sign Up</a>
+                Don't have an account?
+                <a href="register.html" class="signup"> Sign Up</a>
             </div>
         </div>
     </div>

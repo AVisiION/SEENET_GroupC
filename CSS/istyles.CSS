@@ -39,7 +39,7 @@ body {
 
 .nav ul {
     list-style: none;
-    margin-left: 82%;
+    margin-left: 85%;
 }
 
 .nav ul li {
@@ -54,30 +54,38 @@ body {
     position: absolute;
     right: 0;
     top: 100%;
-    width: 180px;
-    background: linear-gradient(135deg, #121212 0%, #2a2a2a 50%, #121212 100%);
+    width: 150px;
+    /* background: linear-gradient(135deg, #121212 0%, #2a2a2a 50%, #121212 100%); */
     border: 1px solid rgba(255, 255, 255, 0.1);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
     border-radius: 8px;
-    padding: 10px 0;
+    padding: 8px 0;
     display: none;
 }
 
 .nav ul li ul li {
     display: block;
-    margin: 0;
-    padding: 10px 20px;
+    margin: 2px;
     text-align: left;
-    transition: background 0.3s ease-out;
+    transition: all 1s ease-out;
 }
 
-.nav ul li ul li:hover {
-    background: rgba(255, 255, 255, 0.05);
+.nav ul li ul li a:hover {
+    background: linear-gradient(135deg, #121212 0%, #2a2a2a 50%, #121212 100%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+
 }
 
 .nav ul li ul li a {
     display: block;
     width: 100%;
+    border: 1px solid grey;
+    color: white;
+    box-sizing: border-box;
+    padding-left: 18px;
+    border-radius: 10px;
 }
 
 .nav ul li:hover ul {
@@ -89,6 +97,7 @@ body {
     top: 15px;
     left: 15px;
 }
+
 /*------------------ Nav-Search -------------------*/
 .search-inline {
     position: absolute;
@@ -106,7 +115,7 @@ body {
     width: 0;
     box-sizing: border-box;
     padding: 0;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     background: transparent;
     color: transparent;
@@ -114,7 +123,7 @@ body {
 }
 
 .search-nav-item:hover .search-inline input {
-    width: 160px;
+    width: 200px;
     padding: 8px 12px;
     border: 1px solid #b0b5c0;
     background: rgba(0, 0, 0, 0.5);
@@ -215,6 +224,8 @@ body {
     /* border: 2px solid white; */
 }
 
+/*--- Wishlisht ---*/
+
 .wishlist-btn-top {
     position: absolute;
     top: 15px;
@@ -285,9 +296,9 @@ body {
     letter-spacing: 1px;
     color: #b0b5c0;
     transition: all 0.3s ease;
-    border: 1px solid grey;
-    border-radius: 10px;
-    padding: 1px 5px;
+    /* border: 1px solid grey; */
+    border-radius: 5px;
+    padding: 7px 15px;
     margin-left: 450px;
     text-align: center;
     width: 10%;
@@ -296,8 +307,10 @@ body {
 }
 
 .heading-view-all:hover {
-    background-color: white;
-    color: #000;
+    /* background-color: white;
+    color: #000; */
+    box-shadow: 0 3px 14px rgba(255, 255, 255, 0.15);
+    color: #fff;
 }
 
 .heading-view-all:hover .fa-solid {
@@ -344,27 +357,29 @@ body {
 .footer {
     background: linear-gradient(135deg, #121212 0%, #1a1a1a 50%, #0a0a0a 100%);
     border-top: 1px solid rgba(255, 255, 255, 0.05);
-    padding: 60px 10% 40px;
+    padding: 60px 40px 40px;
     color: #b0b5c0;
     text-align: left;
-    height: 300px;
+    height: 200px;
     /* border: 2px solid white;  */
 }
 
-.footer-brand,.footer-links,.footer-social {
+.footer-brand,
+.footer-section {
     float: left;
     box-sizing: border-box;
 }
 
 .footer-brand {
     width: 30%;
-    margin-bottom: 20px;
+    margin-right: 5%;
 }
 
 .footer-brand img {
     width: 60px;
     height: auto;
     margin-bottom: 20px;
+
     transition: transform 0.3s ease;
 }
 
@@ -378,21 +393,14 @@ body {
     line-height: 1.6;
 }
 
-.footer-links {
-    width: 45%;
-    margin-bottom: 20px;
-}
-
 .footer-section {
-    float: left;
-    width: 45%;
-    margin-bottom: 20px;
+    width: 20%;
+    margin-right: 1.6%;
 }
 
-.footer-section h4,
-.footer-social h4 {
+.footer-section h4 {
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -413,8 +421,8 @@ body {
     transform: translateX(5px);
 }
 
-.footer-social {
-    width: 20%;
+.social-icons {
+    margin-bottom: 20px;
 }
 
 .social-icons a {
@@ -436,6 +444,39 @@ body {
     color: #fff;
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+}
+
+/*---------------- Sub-Footer ------------------*/
+.sub-footer {
+    background: #050505;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 20px 40px;
+    color: #7a7f8c;
+    font-size: 14px;
+}
+
+.sub-footer-left {
+    float: left;
+    width: 50%;
+    margin-top: 5px;
+}
+
+.sub-footer-right {
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+.sub-footer-right i {
+    font-size: 24px;
+    margin-left: 15px;
+    color: #b0b5c0;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.sub-footer-right i:hover {
+    color: #fff;
 }
 
 /* ----------------------------- Global Hover Effects ---------------------------------------- */
@@ -465,9 +506,12 @@ a {
     transition: color 0.3s ease-out;
 }
 
-.fa-brands:hover,.fa-solid:hover,.fa-regular:hover {
+.fa-brands:hover,
+.fa-solid:hover,
+.fa-regular:hover {
     color: #fff;
 }
+
 /*--Sidebar --*/
 button:not(.menu-toggle):not(.close-toggle) {
     transition: all 0.3s ease-out;
@@ -517,7 +561,7 @@ button:not(.menu-toggle):not(.close-toggle):hover {
     box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
     transform: scale(1.05);
 }
-
+/*---- Cart ------*/
 .icon-btn {
     display: inline-block;
     background: rgba(255, 255, 255, 0.1);
