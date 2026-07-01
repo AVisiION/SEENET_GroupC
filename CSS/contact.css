@@ -1,0 +1,46 @@
+.helpdesk-faq {
+    color: white;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.helpdesk-contact {
+    color: white;
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: left;
+    padding: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #333;
+    color: white;
+}
+
+.contact-form button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #888;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: #a0a0a0;
+}

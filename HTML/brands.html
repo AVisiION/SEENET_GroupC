@@ -5,7 +5,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chronix - Bestseller</title>
-    <link rel="stylesheet" href="../Css/bestseller.css" />
     <link rel="stylesheet" href="../Css/istyles.css">
     <link rel="stylesheet" href="../Css/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
@@ -21,12 +20,8 @@
                         <input type="text" placeholder="Search...">
                     </div>
                 </li>
-                <li>
-                    <i class="fa-solid fa-heart"></i>
-                </li>
-                <li>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </li>
+                <li><a href="wishlist.html" class="nav-icon-link"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a href="cart.html" class="nav-icon-link"><i class="fa-solid fa-cart-shopping"></i></a></li>
                 <li>
                     <a href="login.html"><i class="fa-solid fa-user"></i></a>
                     <!-- <ul>
@@ -41,8 +36,10 @@
                 <i class="fa-solid fa-bars"></i>
             </button>
 
-            <a href="../index.html">
-            <img src="../MEDIA/logo.png" alt="Image not AVALIABLE">
+            <a href="../index.html" class="nlogo">
+                <span class="nlogo-text">CHR</span>
+                <img src="../MEDIA/logo.png" alt="Chronix Logo">
+                <span class="nlogo-text">NIX</span>
             </a>
 
         </div>
@@ -53,41 +50,35 @@
             <div class="text">
                 Our Brands
             </div>
-            <ul>
-                <li class="item1">
-                    <button class="icon-btn wishlist-btn-top" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
-                    <img src="../MEDIA/luxury.jpeg" alt="Image Not AVALIABLE" />
-                    <h3>Prestige Chronograph</h3>
-                    <p>Experience the epitome of luxury with our Prestige Chronograph. Crafted with precision and elegance.</p>
-                    <p><b>$1,299.00</b></p>
-                    <div class="product-actions">
-                        <button class="buy-now-btn">Buy Now</button>
-                        <button class="icon-btn" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
-                    </div>
-                </li>
-                <li class="item2">
-                    <button class="icon-btn wishlist-btn-top" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
-                    <img src="../MEDIA/formal.jpeg" alt="Image Not AVALIABLE" />
-                    <h3>Classic Aviator</h3>
-                    <p>A timeless design for the modern professional. The Classic Aviator blends tradition with contemporary style.</p>
-                    <p><b>$899.00</b></p>
-                    <div class="product-actions">
-                        <button class="buy-now-btn">Buy Now</button>
-                        <button class="icon-btn" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
-                    </div>
-                </li>
-                <li class="item3">
-                    <button class="icon-btn wishlist-btn-top" title="Add to Wishlist"><i class="fa-regular fa-heart"></i></button>
-                    <img src="../MEDIA/sport.jpeg" alt="Image Not AVALIABLE" />
-                    <h3>Sport Diver</h3>
-                    <p>Built for durability and performance. The Sport Diver is water-resistant and ready for any adventure.</p>
-                    <p><b>$1,099.00</b></p>
-                    <div class="product-actions">
-                        <button class="buy-now-btn">Buy Now</button>
-                        <button class="icon-btn" title="Add to Cart"><i class="fa-solid fa-cart-shopping"></i></button>
-                    </div>
-                </li>
-            </ul>
+
+            <div class="category-list">
+                <a href="#" class="cat-link logo-link"><img src="../MEDIA/brands/apple.png" alt="Apple" class="brand-logo-img"></a>
+                <a href="#" class="cat-link">Baume & Mercier</a>
+                <a href="#" class="cat-link">Bell & Ross</a>
+                <a href="#" class="cat-link logo-link"><img src="../MEDIA/brands/breitling.png" alt="Breitling" class="brand-logo-img"></a>
+                <a href="#" class="cat-link">BVLGARI</a>
+                <a href="#" class="cat-link logo-link"><img src="../MEDIA/brands/casio.png" alt="Casio" class="brand-logo-img"></a>
+                <a href="#" class="cat-link logo-link"><img src="../MEDIA/brands/fitbit.png" alt="Fitbit" class="brand-logo-img"></a>
+                <a href="#" class="cat-link logo-link"><img src="../MEDIA/brands/garmin.png" alt="Garmin" class="brand-logo-img"></a>
+                <a href="#" class="cat-link">Grand Seiko</a>
+                <a href="#" class="cat-link">Hublot</a>
+                <a href="#" class="cat-link">IWC Schaffhausen</a>
+                <a href="#" class="cat-link logo-link"><img src="../MEDIA/brands/jacobnco.png" alt="Jacob & Co." class="brand-logo-img"></a>
+                <a href="#" class="cat-link">Jaeger-LeCoultre</a>
+                <a href="#" class="cat-link">Longines</a>
+                <a href="#" class="cat-link logo-link"><img src="../MEDIA/brands/omega.png" alt="Omega" class="brand-logo-img"></a>
+                <a href="#" class="cat-link">Oris</a>
+                <a href="#" class="cat-link">Panerai</a>
+                <a href="#" class="cat-link">Rado</a>
+                <a href="#" class="cat-link logo-link"><img src="../MEDIA/brands/rolex.png" alt="Rolex" class="brand-logo-img"></a>
+                <a href="#" class="cat-link logo-link"><img src="../MEDIA/brands/samsung.jpg" alt="Samsung" class="brand-logo-img"></a>
+                <a href="#" class="cat-link logo-link"><img src="../MEDIA/brands/seiko.png" alt="Seiko" class="brand-logo-img"></a>
+                <a href="#" class="cat-link">Suunto</a>
+                <a href="#" class="cat-link logo-link"><img src="../MEDIA/brands/tag heuer.png" alt="TAG Heuer" class="brand-logo-img"></a>
+                <a href="#" class="cat-link logo-link"><img src="../MEDIA/brands/tissot.png" alt="Tissot" class="brand-logo-img"></a>
+                <a href="#" class="cat-link">Ulysse Nardin</a>
+                <a href="#" class="cat-link">Zenith</a>
+            </div>
         </div>
     </div>
 
@@ -163,7 +154,7 @@
             <i class="fa-brands fa-cc-paypal"></i>
             <i class="fa-brands fa-cc-apple-pay"></i>
         </div>
-        <div style="clear: both;"></div>
+        <div class="clear-both"></div>
     </div>
     <div class="overlay" id="overlay"></div>
 
@@ -192,4 +183,8 @@
 </body>
 
 </html>
+
+
+
+
 

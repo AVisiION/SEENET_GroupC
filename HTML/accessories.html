@@ -5,7 +5,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chronix - Accessories</title>
-    <link rel="stylesheet" href="../Css/bestseller.css" />
     <link rel="stylesheet" href="../Css/istyles.css">
     <link rel="stylesheet" href="../Css/styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
@@ -21,12 +20,8 @@
                         <input type="text" placeholder="Search...">
                     </div>
                 </li>
-                <li>
-                    <i class="fa-solid fa-heart"></i>
-                </li>
-                <li>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </li>
+                <li><a href="wishlist.html" class="nav-icon-link"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a href="cart.html" class="nav-icon-link"><i class="fa-solid fa-cart-shopping"></i></a></li>
                 <li>
                     <a href="login.html"><i class="fa-solid fa-user"></i></a>
                     <!-- <ul>
@@ -41,8 +36,10 @@
                 <i class="fa-solid fa-bars"></i>
             </button>
 
-            <a href="../index.html">
-            <img src="../MEDIA/logo.png" alt="Image not AVALIABLE">
+            <a href="../index.html" class="nlogo">
+                <span class="nlogo-text">CHR</span>
+                <img src="../MEDIA/logo.png" alt="Chronix Logo">
+                <span class="nlogo-text">NIX</span>
             </a>
 
         </div>
@@ -161,7 +158,7 @@
             <i class="fa-brands fa-cc-paypal"></i>
             <i class="fa-brands fa-cc-apple-pay"></i>
         </div>
-        <div style="clear: both;"></div>
+        <div class="clear-both"></div>
     </div>
     <div class="overlay" id="overlay"></div>
 
@@ -190,5 +187,9 @@
 </body>
 
 </html>
+
+
+
+
 
 

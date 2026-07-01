@@ -12,7 +12,7 @@
 </head>
 
 <body>
-        <div class="header">
+    <div class="header">
         <div class="nav">
             <ul>
                 <li class="search-nav-item">
@@ -21,19 +21,10 @@
                         <input type="text" placeholder="Search...">
                     </div>
                 </li>
-                <li>
-                    <i class="fa-solid fa-heart"></i>
-                </li>
-                <li>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </li>
+                <li><a href="wishlist.html" class="nav-icon-link"><i class="fa-solid fa-heart"></i></a></li>
+                <li><a href="cart.html" class="nav-icon-link"><i class="fa-solid fa-cart-shopping"></i></a></li>
                 <li>
                     <a href="login.html"><i class="fa-solid fa-user"></i></a>
-                    <!-- <ul>
-                        <li><a href="login.html">Login</a></li>
-                        <li><a href="register.html">Register</a></li>
-                        <li><a href="#">My Account</a></li>
-                    </ul> -->
                 </li>
             </ul>
             <button class="menu-toggle" type="button" aria-label="Open sidebar" title="Open sidebar"
@@ -41,10 +32,11 @@
                 <i class="fa-solid fa-bars"></i>
             </button>
 
-            <a href="../index.html">
-            <img src="../MEDIA/logo.png" alt="Image not AVALIABLE">
+            <a href="../index.html" class="nlogo">
+                <span class="nlogo-text">CHR</span>
+                <img src="../MEDIA/logo.png" alt="Chronix Logo">
+                <span class="nlogo-text">NIX</span>
             </a>
-
         </div>
     </div>
 
@@ -53,19 +45,19 @@
             <div class="text">
                 Helpdesk
             </div>
-            <div style="color: white; margin: 20px auto; max-width: 800px; text-align: left; padding: 20px; line-height: 1.6;">
+            <div class="helpdesk-faq">
                 <h3>Frequently Asked Questions (FAQs)</h3><br>
                 <p><b>Q: What is your return policy?</b><br>A: We offer a 30-day return policy for all unworn timepieces in their original packaging.</p><br>
                 <p><b>Q: Do you offer international shipping?</b><br>A: Yes, we ship securely to over 50 countries globally.</p><br>
                 <p><b>Q: Are your watches authentic?</b><br>A: Every Chronix timepiece is 100% authentic and comes with a certificate of authenticity.</p>
             </div>
-            <div style="color: white; margin: 20px auto; max-width: 500px; text-align: left; padding: 20px;">
+            <div class="helpdesk-contact">
                 <h3>To reach out</h3><br>
-                <form style="display: flex; flex-direction: column; gap: 15px;">
-                    <input type="text" placeholder="Your Name" style="padding: 10px; border-radius: 5px; border: none; background: #333; color: white;">
-                    <input type="email" placeholder="Your Email" style="padding: 10px; border-radius: 5px; border: none; background: #333; color: white;">
-                    <textarea placeholder="Your Message" rows="5" style="padding: 10px; border-radius: 5px; border: none; background: #333; color: white;"></textarea>
-                    <button type="button" style="padding: 10px; border-radius: 5px; border: none; background: #888; color: white; font-weight: bold; cursor: pointer;">Send Message</button>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <textarea placeholder="Your Message" rows="5"></textarea>
+                    <button type="button">Send Message</button>
                 </form>
             </div>
         </div>
@@ -93,17 +85,17 @@
             <p>Hassle-free returns if you're not satisfied.</p>
         </div>
     </div>
-        <footer class="footer">
+    
+    <footer class="footer">
         <div class="footer-brand">
             <img src="../MEDIA/logo.png" alt="Chronix Logo" />
             <p class="tagline">Precision and timeless elegance crafted for the modern individual.</p>
             <div class="footer-social-inline">
-                <h4 >Follow Us</h4>
+                <h4>Follow Us</h4>
                 <div class="social-icons">
                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
                     <a href="#"><i class="fa-brands fa-facebook"></i></a>
                     <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                    <!-- <a href="#"><i class="fa-brands fa-youtube"></i></a> -->
                     <a href="#"><i class="fa-brands fa-pinterest"></i></a>
                     <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
@@ -142,7 +134,7 @@
             <i class="fa-brands fa-cc-paypal"></i>
             <i class="fa-brands fa-cc-apple-pay"></i>
         </div>
-        <div style="clear: both;"></div>
+        <div class="clear-both"></div>
     </div>
     <div class="overlay" id="overlay"></div>
 
@@ -168,7 +160,5 @@
     </div>
     <script src="../JS/script.js"></script>
 </body>
-
 </html>
-
 

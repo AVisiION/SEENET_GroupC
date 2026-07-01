@@ -1,0 +1,25 @@
+/* ----------------------------- Mens Page Styles ---------------------------------------- */
+.chero {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.chero .chero-bg {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+    display: block;
+}
+
+/* ----------------------------- Extracted Inline Styles ---------------------------------------- */
+.category-list {
+    margin-top: 30px;
+}
+
+.chero video.chero-bg {
+    width: 100%;
+    height: 500px;
+    display: block;
+    object-fit: cover;
+}
